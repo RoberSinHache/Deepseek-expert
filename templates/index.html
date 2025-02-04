@@ -1,0 +1,38 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="titulo">Tu colega Juan</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <svg style="display: none;">
+        <symbol id="ai-icon" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M21 14.976c0 .266-.106.52-.293.707l-2.55 2.55c-.187.188-.44.293-.707.293H6.55c-.266 0-.52-.105-.707-.293l-2.55-2.55c-.187-.187-.293-.44-.293-.707V9.024c0-.266.106-.52.293-.707l2.55-2.55c.187-.188.44-.293.707-.293h10.9c.266 0 .52.105.707.293l2.55 2.55c.187.187.293.44.293.707v5.952zM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        </symbol>
+    </svg>
+</head>
+<body">
+    <div class="chat-container">
+        <div class="welcome-message text-center py-8">
+            <div class="animation-container">
+                <h1 class="global-title">
+                    <span id="typed"></span>
+                    <span class="cursor">&nbsp;</span>
+                </h1>
+            </div>
+            <p class="global-subtitle opacity-75">Sólo se de deepseek</p>
+        </div>
+        <div class="chat-history" id="chatHistory">
+           
+        </div>
+        <div class="input-container">
+            <input type="text" id="questionInput" class="clicable" placeholder="Escribe tu pregunta...">
+            <button class="send-button clicable" onclick="sendQuestion()">Enviar</button>
+        </div>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
