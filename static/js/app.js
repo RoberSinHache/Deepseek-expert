@@ -144,9 +144,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add cursor animation
-    const typedSpan = document.getElementById("typed");
+    const typedSpan = document.querySelector(".global-subtitle");
     const cursorSpan = document.getElementsByClassName("cursor")[0];
-    const totype = ["Rober´s FAQ"];
+    const totype = ["Sólo sé de deepseek"];
 
     const delayTyping_char = 100;
     const delayErasing_text = 150;
@@ -270,4 +270,64 @@ document.addEventListener('DOMContentLoaded', function() {
     sendButton.addEventListener('click', sendQuestion);
 
     typeText();
+
+    // Gyroscope handling
+    const chatContainer = document.querySelector('.chat-container');
+    let gyroEnabled = false;
+
+    function handleOrientation(event) {
+        if (!gyroEnabled || !event.gamma || !event.beta) return;
+
+        // Limit the rotation to a reasonable range
+        const maxAngle = 15;
+        const gamma = Math.min(Math.max(event.gamma, -maxAngle), maxAngle); // Left/Right tilt
+        const beta = Math.min(Math.max(event.beta - 45, -maxAngle), maxAngle); // Front/Back tilt
+
+        // Update CSS custom properties for the rotation
+        chatContainer.style.setProperty('--rotateY', `${gamma}deg`);
+        chatContainer.style.setProperty('--rotateX', `${-beta}deg`);
+    }
+
+    // Request permission for gyroscope on mobile devices
+    if (window.DeviceOrientationEvent && typeof DeviceOrientationEvent.requestPermission === 'function') {
+        // iOS 13+ devices
+        document.body.addEventListener('click', async () => {
+            try {
+                const permission = await DeviceOrientationEvent.requestPermission();
+                if (permission === 'granted') {
+                    gyroEnabled = true;
+                    chatContainer.classList.add('gyro-enabled');
+                    window.addEventListener('deviceorientation', handleOrientation);
+                }
+            } catch (error) {
+                console.error('Error requesting gyroscope permission:', error);
+            }
+        }, { once: true });
+    } else if (window.DeviceOrientationEvent) {
+        // Other devices with gyroscope
+        gyroEnabled = true;
+        chatContainer.classList.add('gyro-enabled');
+        window.addEventListener('deviceorientation', handleOrientation);
+    }
+
+    // Fallback smooth movement for non-gyro devices
+    if (!window.DeviceOrientationEvent) {
+        chatContainer.addEventListener('mousemove', (e) => {
+            const rect = chatContainer.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            const maxAngle = 5;
+            const rotateY = ((e.clientX - centerX) / (rect.width / 2)) * maxAngle;
+            const rotateX = ((e.clientY - centerY) / (rect.height / 2)) * maxAngle;
+
+            chatContainer.style.setProperty('--rotateY', `${rotateY}deg`);
+            chatContainer.style.setProperty('--rotateX', `${-rotateX}deg`);
+        });
+
+        chatContainer.addEventListener('mouseleave', () => {
+            chatContainer.style.setProperty('--rotateY', '0deg');
+            chatContainer.style.setProperty('--rotateX', '0deg');
+        });
+    }
 });

@@ -22,17 +22,60 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-icon {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.page-icon img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  .page-icon {
+    width: 60px;
+    height: 60px;
+    top: 65px;
+  }
 }
 
 .chat-container {
   width: 70vw;
   max-width: 1200px;
   padding: 2rem;
+  margin-top: 40px;
   border: 1px solid rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(12px);
   background: var(--glass);
   border-radius: 15px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease-out;
+  perspective: 1000px;
+  will-change: transform;
+  position: relative;
+}
+
+.chat-container.gyro-enabled {
+  transform: rotateX(var(--rotateX)) rotateY(var(--rotateY));
 }
 
 @media (max-width: 768px) {
@@ -40,10 +83,7 @@ body {
     width: 90vw;
     padding: 1rem;
     margin: 1rem;
-  }
-
-  .global-title {
-    font-size: 2rem;
+    margin-top: 40px;
   }
 
   .global-subtitle {
@@ -52,14 +92,11 @@ body {
 }
 
 @media (max-width: 480px) {
-  body {
-    padding: 0.5rem;
-  }
-  
   .chat-container {
     width: calc(100% - 2rem);
     padding: 0.8rem;
     margin: 0.5rem;
+    margin-top: 40px;
   }
 
   .message, .message.user {
@@ -96,20 +133,6 @@ body {
   .message.bot .message-content {
     border-radius: 18px;
   }
-}
-
-.global-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
-}
-
-.cursor {
-    display: inline-block;
-    width: 22px;
-    background-color: #fff;
-    animation: blink 1s infinite;
 }
 
 .global-subtitle {
@@ -545,4 +568,8 @@ body {
     button, a, input[type="submit"], .clickable {
         cursor: pointer !important;
     }
+}
+
+.cursor, .global-title {
+  display: none;
 }
