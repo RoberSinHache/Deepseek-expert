@@ -1,6 +1,6 @@
 # Azure QnA Bot Project
 
-This project implements a Question and Answer bot using Azure AI Language Services. It provides a web interface where users can ask questions and get answers from a knowledge base.
+This project implements a Question and Answer bot using Azure AI Language Services. The knowledge base is specifically trained on Deepseek research papers, allowing users to ask questions and get accurate answers about Deepseek's technology and research findings through a web interface.
 
 ## Prerequisites
 
