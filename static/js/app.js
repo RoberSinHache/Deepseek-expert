@@ -66,14 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
             messageHeader.className = 'message-header font-bold';
             messageHeader.textContent = type === 'user' ? 'You' : 'Azure Assistant';
             contentDiv.insertBefore(messageHeader, contentDiv.firstChild);
-            
-            // Add source information for bot messages
-            if (type === 'bot') {
-                const sourceDiv = document.createElement('div');
-                sourceDiv.className = 'mt-2 text-xs opacity-70';
-                sourceDiv.textContent = 'Source: ' + extractSource(text);
-                contentDiv.appendChild(sourceDiv);
-            }
         } catch (error) {
             console.error('Error parsing markdown:', error);
             contentDiv.textContent = text;

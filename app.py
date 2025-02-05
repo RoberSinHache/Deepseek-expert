@@ -36,8 +36,7 @@ def handle_question():
         
         answers = [{
             "answer": candidate.answer,
-            "confidence": candidate.confidence,
-            "source": candidate.source
+            "confidence": candidate.confidence
         } for candidate in response.answers]
         
         return jsonify({"answers": answers, "error": None})
