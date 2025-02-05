@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const chatHistory = document.getElementById('chatHistory');
     const questionInput = document.getElementById('questionInput');
+    const sendButton = document.getElementById('sendButton');
 
     function createMessageElement(text, type) {
         const messageDiv = document.createElement('div');
@@ -142,20 +143,14 @@ document.addEventListener('DOMContentLoaded', function() {
         return sourceMatch ? sourceMatch[1] : 'Desconocida';
     }
 
-    // Manejar Enter key
-    questionInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') sendQuestion();
-    });
-
-
     // Add cursor animation
-    const typedSpan = document.getElementById("typed")
-    const cursorSpan = document.getElementsByClassName("cursor")[0]
-    const totype = ["Rober´s FAQ"]
+    const typedSpan = document.getElementById("typed");
+    const cursorSpan = document.getElementsByClassName("cursor")[0];
+    const totype = ["Rober´s FAQ"];
 
     const delayTyping_char = 100;
     const delayErasing_text = 150;
-    const delayTyping_text = 500;
+    const delayPrinting_text = 1000;
 
     let totypeIndex = 0;
     let charIndex = 0;
@@ -185,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (totypeIndex >= totype.length)
                 totypeIndex = 0;
-                setTimeout(typeText, delayTyping_text);
+                setTimeout(typeText, delayPrinting_text);
         }
     }
 
@@ -264,9 +259,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    // Initialize cursor when window loads
-    window.addEventListener('load', () => {
-        cursor.init();
-        typeText();
+    // Initialize cursor and set up event listeners after all elements are defined
+    cursor.init();
+    
+    // Set up message input event listeners
+    questionInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') sendQuestion();
     });
+
+    sendButton.addEventListener('click', sendQuestion);
+
+    typeText();
 });
