@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', function() {
     typeText();
 
     // Gyroscope handling
-    const chatContainer = document.querySelector('.chat-container');
+    /* const chatContainer = document.querySelector('.chat-container');
     let gyroEnabled = false;
 
     function handleOrientation(event) {
@@ -329,5 +329,5 @@ document.addEventListener('DOMContentLoaded', function() {
             chatContainer.style.setProperty('--rotateY', '0deg');
             chatContainer.style.setProperty('--rotateX', '0deg');
         });
-    }
+    } */
 });
