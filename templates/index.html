@@ -7,6 +7,7 @@
     <title class="titulo">Tu colega Juan</title>
     <link rel="stylesheet" href="/static/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <svg style="display: none;">
         <symbol id="ai-icon" viewBox="0 0 24 24">
@@ -14,7 +15,7 @@
         </symbol>
     </svg>
 </head>
-<body">
+<body>
     <div class="chat-container">
         <div class="welcome-message text-center py-8">
             <div class="animation-container">
@@ -23,16 +24,19 @@
                     <span class="cursor">&nbsp;</span>
                 </h1>
             </div>
-            <p class="global-subtitle opacity-75">Sólo se de deepseek</p>
+            <p class="global-subtitle opacity-75">Sólo sé de deepseek</p>
         </div>
         <div class="chat-history" id="chatHistory">
            
         </div>
         <div class="input-container">
             <input type="text" id="questionInput" class="clicable" placeholder="Escribe tu pregunta...">
-            <button class="send-button clicable" onclick="sendQuestion()">Enviar</button>
+            <button class="send-button clicable" onclick="sendQuestion()">
+                <i class="fas fa-paper-plane"></i>
+            </button>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="/static/js/app.js"></script>
 </body>
 </html>
