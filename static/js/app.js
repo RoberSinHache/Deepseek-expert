@@ -64,14 +64,14 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add message header
             const messageHeader = document.createElement('div');
             messageHeader.className = 'message-header font-bold';
-            messageHeader.textContent = type === 'user' ? 'Tú' : 'Asistente Azure';
+            messageHeader.textContent = type === 'user' ? 'You' : 'Azure Assistant';
             contentDiv.insertBefore(messageHeader, contentDiv.firstChild);
             
             // Add source information for bot messages
             if (type === 'bot') {
                 const sourceDiv = document.createElement('div');
                 sourceDiv.className = 'mt-2 text-xs opacity-70';
-                sourceDiv.textContent = 'Fuente: ' + extractSource(text);
+                sourceDiv.textContent = 'Source: ' + extractSource(text);
                 contentDiv.appendChild(sourceDiv);
             }
         } catch (error) {
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const loadingDiv = document.createElement('div');
         loadingDiv.className = 'loading-dots text-center py-4 text-gray-400';
-        loadingDiv.textContent = 'Procesando';
+        loadingDiv.textContent = 'Processing';
         chatHistory.appendChild(loadingDiv);
         smoothScrollToBottom();
         
@@ -125,12 +125,12 @@ document.addEventListener('DOMContentLoaded', function() {
             if (data.answers.length > 0) {
                 data.answers.forEach((answer, index) => {
                     setTimeout(() => {
-                        const answerText = `${answer.answer}\nConfianza: ${(answer.confidence * 100).toFixed(2)}%`;
+                        const answerText = `${answer.answer}\n\nConfidence: ${(answer.confidence * 100).toFixed(2)}%`;
                         appendMessage(answerText, 'bot');
                     }, index * 300);
                 });
             } else {
-                appendMessage('No encontré una respuesta adecuada.', 'bot');
+                appendMessage('I could not find a suitable answer.', 'bot');
             }
             
         } catch (error) {
@@ -139,14 +139,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function extractSource(message) {
-        const sourceMatch = message.match(/Fuente: (.*)/);
-        return sourceMatch ? sourceMatch[1] : 'Desconocida';
+        const sourceMatch = message.match(/Source: (.*)/);
+        return sourceMatch ? sourceMatch[1] : 'Unknown';
     }
 
     // Add cursor animation
     const typedSpan = document.querySelector(".global-subtitle");
     const cursorSpan = document.getElementsByClassName("cursor")[0];
-    const totype = ["Sólo sé de deepseek"];
+    const totype = ["Deepseek Expert"];
 
     const delayTyping_char = 100;
     const delayErasing_text = 150;
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function eraseText() {
+    /* function eraseText() {
         if (charIndex > 0) {
             typedSpan.textContent = totype[totypeIndex].substring(0, charIndex-1);
             charIndex = charIndex-1;
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 totypeIndex = 0;
                 setTimeout(typeText, delayPrinting_text);
         }
-    }
+    } */
 
     // Custom Cursor Implementation
     const cursor = {
