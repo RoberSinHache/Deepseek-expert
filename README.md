@@ -1,6 +1,6 @@
 # Azure QnA Bot Project
 
-This project implements a Question and Answer bot using Azure AI Language Services. The knowledge base is specifically trained on Deepseek research papers, allowing users to ask questions and get accurate answers about Deepseek's technology and research findings through a web interface.
+This project implements a Question and Answer bot using Azure AI Language Services. The knowledge base is specifically trained on Deepseek research papers, allowing users to ask questions and get accurate answers about those papers, and also, an intent detector chatbot that analyzes input messages to detect and display the top five potential intentions with their corresponding probabilities.
 
 ## Prerequisites
 
@@ -26,10 +26,16 @@ To run the application locally, follow these steps:
 
 2. Create a `.env` file in the root directory of the project using the `.env.template` as reference. Fill in the following variables with the values from your Azure resources:
    ```
-   LANGUAGE_KEY=your_language_service_key
-   LANGUAGE_ENDPOINT=your_language_service_endpoint
-   PROJECT_NAME=your_project_name
-   DEPLOYMENT_NAME=your_deployment_name
+    AI_SERVICE_ENDPOINT=your_ai_service_endpoint_here
+    AI_SERVICE_KEY=your_ai_service_key_here
+
+    # QA Service Configuration
+    QA_DEPLOYMENT_NAME_DEEPSEEK=your_qa_deployment_name_here
+    QA_PROJECT_NAME_DEEPSEEK=your_qa_project_name_here
+
+    # Intent Service Configuration
+    QA_DEPLOYMENT_NAME_INTENT=your_qa_deployment_name_here
+    QA_PROJECT_NAME_INTENT=your_qa_project_name_here
    ```
 
 3. Install the required dependencies:
@@ -44,15 +50,3 @@ To run the application locally, follow these steps:
 
 5. Open your web browser and navigate to `http://localhost:5000` (or the port shown in the terminal)
 
-## Environment Variables
-
-Make sure to set up the following environment variables either in your `.env` file (for local development) or in your deployment platform:
-
-- `LANGUAGE_KEY`: Your Azure Language Service API key
-- `LANGUAGE_ENDPOINT`: Your Azure Language Service endpoint URL
-- `PROJECT_NAME`: The name of your QnA project in Azure
-- `DEPLOYMENT_NAME`: The deployment name of your QnA project
-
-## Note
-
-Remember to never commit your `.env` file or expose your Azure credentials. The `.env` file is included in `.gitignore` for security purposes.
