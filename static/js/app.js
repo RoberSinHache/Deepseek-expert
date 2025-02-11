@@ -26,6 +26,28 @@ document.addEventListener('DOMContentLoaded', function() {
     const chatHistory = document.getElementById('chatHistory');
     const questionInput = document.getElementById('questionInput');
     const sendButton = document.getElementById('sendButton');
+    const deepseekExpertBtn = document.getElementById('deepseek-expert-btn');
+    const intentDetectorBtn = document.getElementById('intent-detector-btn');
+
+    const chatHistories = {
+        'deepseek-expert': [],
+        'intent-detector': []
+    };
+
+    const initialMessages = {
+        'deepseek-expert': "Hi, I´m a chatbot created by Rober. I answer questions related to the next deepseek papers:\n- DeepSeek-R1 Incentivizing Reasoning Capability in LLMs via Reinforcement Learning\n- DeepSeek-V3 Technical Report\n- Scaling Open-Source Language Models with Longtermism\n\nI will try my best to help you, so don´t hesitate to make me questions!",
+        'intent-detector': "Hi, I´m a chatbot created by Rober. I´m trained to detect what are the main intents of the messages you send me. \nI´m not perfect, but I´m glad to be challenged!\n\nI can detect the following intents:\n- CheckBalance\n- MoneyTransfer\n- BillPayment\n- ProductInformation\n- Complaint\n- Greeting\n- Goodbye\n- Help\n- Cancellation\n- Confirmation\n\n\nEntities I can also detect:\n- Amounts."
+    };
+
+    function initializeChatHistory() {
+        Object.keys(chatHistories).forEach(model => {
+            if (chatHistories[model].length === 0) {
+                chatHistories[model].push({ text: initialMessages[model], type: 'bot' });
+            }
+        });
+    }
+
+    initializeChatHistory();
 
     function createMessageElement(text, type) {
         const messageDiv = document.createElement('div');
@@ -37,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Add appropriate icon based on message type
         if (type === 'user') {
-            avatarDiv.innerHTML = '<i class="fas fa-user text-purple-400 text-xl"></i>';
+            /* avatarDiv.innerHTML = '<i class="fas fa-user text-purple-400 text-xl"></i>'; */
         } else if (type === 'bot') {
             avatarDiv.innerHTML = '<div class="bot-message-icon"></div>';
         }
@@ -64,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add message header
             const messageHeader = document.createElement('div');
             messageHeader.className = 'message-header font-bold';
-            messageHeader.textContent = type === 'user' ? 'You' : 'Azure Assistant';
+            messageHeader.innerHTML = type === 'user' ? '<strong>You</strong>' : '<strong>Azure Assistant</strong>';
             contentDiv.insertBefore(messageHeader, contentDiv.firstChild);
         } catch (error) {
             console.error('Error parsing markdown:', error);
@@ -78,8 +100,18 @@ document.addEventListener('DOMContentLoaded', function() {
         return messageDiv;
     }
 
-    function appendMessage(message, type) {
-        const messageElement = createMessageElement(message, type);
+    function switchChatHistory(model) {
+        chatHistory.innerHTML = '';
+        chatHistories[model].forEach(message => {
+            const messageElement = createMessageElement(message.text, message.type);
+            chatHistory.appendChild(messageElement);
+        });
+    }
+
+    function appendMessage(text, type) {
+        const message = { text, type };
+        chatHistories[selectedModel].push(message);
+        const messageElement = createMessageElement(text, type);
         chatHistory.appendChild(messageElement);
         smoothScrollToBottom();
     }
@@ -92,41 +124,32 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function sendQuestion() {
-        const question = questionInput.value.trim();
+        const question = questionInput.value;
         if (!question) return;
+        const message = { text: question, type: 'user' };
         
-        appendMessage(question, 'user');
+        // Clear the input field immediately
         questionInput.value = '';
         
-        const loadingDiv = document.createElement('div');
-        loadingDiv.className = 'loading-dots text-center py-4 text-gray-400';
-        loadingDiv.textContent = 'Processing';
-        chatHistory.appendChild(loadingDiv);
-        smoothScrollToBottom();
-        
+        appendMessage(message.text, message.type);
+
         try {
             const response = await fetch('/ask', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({ question })
+                body: JSON.stringify({ question, model: selectedModel })
             });
-            
+
             const data = await response.json();
-            chatHistory.removeChild(loadingDiv);
-            
-            if (data.answers.length > 0) {
-                data.answers.forEach((answer, index) => {
-                    setTimeout(() => {
-                        const answerText = `${answer.answer}\n\nConfidence: ${(answer.confidence * 100).toFixed(2)}%`;
-                        appendMessage(answerText, 'bot');
-                    }, index * 300);
-                });
-            } else {
-                appendMessage('I could not find a suitable answer.', 'bot');
+
+            if (!data.answers) {
+                throw new Error('No answers found in response');
             }
-            
+
+            appendMessage(data.answers[0].answer, 'bot');
         } catch (error) {
-            appendMessage(`Error: ${error.message}`, 'error');
+            console.error('Error in sendQuestion:', error);
+            appendMessage('Error: ' + error.message, 'bot');
         }
     }
 
@@ -218,7 +241,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             // Add hover effect on interactive elements
-            const interactiveElements = document.querySelectorAll('a, button, input, textarea');
+            const interactiveElements = document.querySelectorAll('a, button, input, textarea, select');
             interactiveElements.forEach(el => {
                 el.addEventListener('mouseenter', () => {
                     this.circle.classList.add('hover');
@@ -254,6 +277,21 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize cursor and set up event listeners after all elements are defined
     cursor.init();
     
+    // Set default model
+    let selectedModel = 'deepseek-expert';
+
+    deepseekExpertBtn.addEventListener('click', () => {
+        selectedModel = 'deepseek-expert';
+        switchChatHistory(selectedModel);
+    });
+
+    intentDetectorBtn.addEventListener('click', () => {
+        selectedModel = 'intent-detector';
+        switchChatHistory(selectedModel);
+    });
+
+    switchChatHistory(selectedModel);
+
     // Set up message input event listeners
     questionInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') sendQuestion();

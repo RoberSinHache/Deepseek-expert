@@ -1,0 +1,728 @@
+[
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "What is my current account balance?",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you tell me how much money I have in my account?",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show me my balance.",
+    "entities": []
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to transfer $100 to John's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer 50 dollars to my savings account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send 200 dollars to Alice's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 11
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay my electricity bill.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please pay my phone bill.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Pay my water bill now.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Can you give me details about the new smartphone?",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "I want to know the specifications of product X.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Tell me more about the features of the latest laptop.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I want to file a complaint regarding the service.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I'm not satisfied with the quality of the product.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I have an issue with my recent purchase.",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hello.",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hi there!",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Good morning.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Goodbye.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "See you later.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Bye for now.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "I need some help with my account.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "Can you assist me, please?",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "Help, I'm having trouble logging in.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "I want to cancel my order.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Please cancel my subscription.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Cancel my reservation.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Yes, confirm the transaction.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "I approve the payment.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Sure, go ahead and proceed.",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "I want to check my account balance.",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Could you show me my current balance?",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "What's the balance on my account?",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Please tell me how much money I have.",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my available funds.",
+    "entities": []
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please transfer $250 from my checking to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 16,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send $75 to Mark's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move $300 to my investment account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer $400 to my credit card account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Could you help me transfer 50 dollars to my friend's account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 28,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay my cable bill.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please settle my gas bill.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Process the payment for my utility bill.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I want to clear my phone bill.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Pay my internet bill immediately.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Can you provide details about the new laptop model?",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Tell me more about the features of the latest smartphone.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "I need specifications for the advertised product.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "What is the price and warranty for the new TV?",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Give me information about the performance of this device.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I am disappointed with the service I received.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I would like to file a complaint about my recent order.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "The product quality is not as expected.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I have a problem with my purchase, please help.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I'm unsatisfied with the customer support.",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hey, how's it going?",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Good afternoon!",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hi, nice to meet you.",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hello, how are you doing today?",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Greetings, hope you're well.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Goodbye, take care.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "See you soon.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Farewell.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Bye, have a great day.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Catch you later.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "I need assistance with my account settings.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "Could you help me fix this issue?",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "I require support for a problem I'm facing.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "Can someone assist me, please?",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "Help me out with this error, please.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "I would like to cancel my subscription immediately.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Please cancel my upcoming order.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "I need to revoke my reservation.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Cancel the transaction now.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "I want to terminate my service.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Yes, I confirm this action.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Please proceed, I approve.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "I agree with the proposed changes.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Sure, confirm the details.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Absolutely, go ahead and confirm.",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "How much do I have in my account?",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Check my balance, please.",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "I'd like to see my account balance.",
+    "entities": []
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Move $500 to my investment account.",
+    "entities": []
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you send 120 dollars to my mom?",
+    "entities": []
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Wire 350 dollars to my business account.",
+    "entities": []
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I'd like to send 200 dollars to my sister.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "What specs does the latest smartwatch have?",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Can you list the features of the new gaming console?",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Give me the specifications of the new smartwatch.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "I'd like to know more about the newest TV model.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "Your service is not satisfactory.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I had a bad experience with my last purchase.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I'm frustrated with the delay in my order.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "My recent order was damaged, I want a refund.",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hey there!",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Howdy!",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Yo!",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Good evening!",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Take care, bye!",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Catch you next time.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Later!",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Goodbye, see you soon.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "See you around.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "I need technical support.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "Support me with this problem.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Terminate my membership.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Withdraw my application.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Cancel the automatic renewal of my subscription.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Yes, go ahead.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "I confirm the changes.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Approve the transaction.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Proceed with my confirmation.",
+    "entities": []
+  }
+]

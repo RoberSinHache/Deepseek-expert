@@ -1,0 +1,3386 @@
+[
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of AUD10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u00a3200 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move $500 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire \u20ac25 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of JPY10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move $200 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay $50 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move AUD5000 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send MXN200 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least \u20b9200 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for JPY1000?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send \u20ac50 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer MXN200 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of AUD9999.99 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least \u00a310 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send \u20b95000 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20ac100 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least \u20ac150 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send MXN25 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire \u20ac200 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send \u20ac200 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay AUD1000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay CAD2500 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u00a350 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20ac25.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over AUD5000.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over \u00a39999.99.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20ac200.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay AUD50 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move \u20b910 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send CAD2500 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least CAD500 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay JPY5000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u00a35000.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of CAD10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of \u20ac150 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of \u20b92500 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send CAD1000 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer MXN10 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over \u00a3100.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20ac25 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for \u20b9200?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u00a350 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least $2500 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move AUD75 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of JPY50 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above $10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above CAD2500.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move $2500 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move MXN25 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20b925 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least $2500 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least $1000 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send $50 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send \u20b91000 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay CAD2500 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for AUD10?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send $1000 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above AUD75.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than JPY10 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than \u00a350 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least JPY500 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer $50 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u20b9200 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least $50 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b91000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20ac200 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay AUD75 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20ac5000 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over MXN9999.99.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of MXN9999.99.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above \u00a39999.99.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer $50 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send AUD10 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of \u20ac10 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over \u20b92500.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of AUD10 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer $5000 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b9200 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for MXN500?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b925 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above AUD10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20ac150 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay $100 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u20ac5000 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer AUD150 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send MXN200 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b9200 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of $150.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send CAD5000 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of MXN200 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over \u00a39999.99.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above CAD50.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send \u20ac200 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b9200 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of JPY500 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b95000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b95000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20b925.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send AUD500 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay MXN200 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above $100.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send AUD1000 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over $1000.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20b910.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least AUD1000 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over \u20ac200.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for \u20b9200?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer CAD10 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move $100 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for JPY75?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over \u20ac150.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire $5000 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of \u20ac25 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of \u20ac100 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above \u00a350.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20b925 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of $150.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than \u00a350 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send \u00a350 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than AUD10 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b95000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move AUD50 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send \u20ac200 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send CAD500 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send JPY75 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u20b92500 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for MXN9999.99?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer CAD5000 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above MXN10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for CAD2500?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire $150 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for JPY50?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u00a350 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20ac200.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send AUD25 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for JPY10?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer JPY50 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer CAD10 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least JPY10 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay $1000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send \u00a310 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send $50 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20b91000.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire \u00a310 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay CAD10 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for JPY75?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least AUD25 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay JPY200 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over $100.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire CAD50 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above \u20b99999.99.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20b99999.99.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than \u20ac150 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send JPY5000 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b91000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move \u00a35000 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above CAD50.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above $100.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay MXN200 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer MXN200 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay $1000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over AUD50.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of MXN25 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above \u20ac100.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20ac150 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above \u20ac10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than CAD500 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer $100 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of \u00a325 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u20ac5000 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u00a350 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire \u20ac10 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over \u20ac100.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above CAD5000.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u20b95000 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20ac25 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of AUD9999.99 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move \u20ac50 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send AUD500 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b99999.99 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20ac5000 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u00a3100 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20b92500.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than \u20ac5000 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move MXN10 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer CAD10 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least MXN5000 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of MXN500.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than \u20ac5000 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for AUD10?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of JPY200 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than \u00a350 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20ac25.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of $200 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send AUD5000 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of CAD5000 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for MXN500?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send JPY1000 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u20ac200 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above \u00a350.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay MXN10 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least \u20ac5000 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of AUD500 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send \u20b910 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over JPY75.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of MXN10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20b910 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least CAD10 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of MXN200 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire JPY200 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u00a39999.99 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over \u20b92500.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send \u20ac5000 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move CAD2500 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I have to pay \u20ac150 for my water bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of AUD10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of \u20b9100 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send \u20b9200 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of CAD50.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer $5000 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of \u20b92500 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20ac100.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least CAD5000 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for $1000?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u20ac25 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over MXN100.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of JPY50.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of $1000 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of AUD50.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above JPY10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of JPY1000.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of JPY10 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me if my balance is above CAD10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 31,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u00a325.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move AUD1000 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least $1000 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire AUD10 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over JPY200.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for JPY500?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of CAD50 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than AUD75 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move \u20ac50 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20ac25 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send \u20ac10 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for JPY200?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b910 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u20ac5000 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least \u00a35000 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of CAD50.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over $150.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of CAD2500 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire $50 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least $500 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over AUD9999.99.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than MXN200 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of $100 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for JPY5000?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of MXN10.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20ac5000.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send \u20ac25 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least \u00a3200 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Can you check if I have at least MXN200 in my account?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my balance if it's over MXN25.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 29,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for JPY500?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer \u20b99999.99 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send \u20b95000 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I want to move \u20ac25 to another bank.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 15,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay CAD5000 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process a bill payment of \u20ac5000.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 33,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send CAD2500 to John.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than CAD10 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Can you settle my internet bill for \u00a35000?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 36,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Do I have more than \u20ac25 available?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 20,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay CAD2500 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay CAD500 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Can you wire JPY5000 to my account in another bank?",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please send JPY200 to my brother's account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 12,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay $50 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay \u20b925 for my electricity bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 14,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer AUD25 to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Make a payment of \u20ac5000 for my phone bill.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 18,
+        "length": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,368 @@
+[
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show my current balance, please.",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "How much money is in my account?",
+    "entities": []
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer $150 to my checking account.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "I need to send 75 dollars to my friend.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 13,
+        "length": 9
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Pay my internet bill.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to settle my utility bill.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "What are the features of the new tablet?",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Give me the specifications of the latest watch.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I have a complaint about your service.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I'm unhappy with my order.",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hi.",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hello there!",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Bye.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "See you.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "I need assistance.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "Help me out, please.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Cancel my purchase.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "I want to annul my order.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Yes, please confirm.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "I agree, proceed.",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Could you tell me my balance?",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Show me the amount in my account.",
+    "entities": []
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Send $100 to my friend.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 5,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Transfer 200 dollars to my savings.",
+    "entities": [
+      {
+        "category": "Amount",
+        "offset": 9,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I need to pay my cable bill now.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process the payment for my utility bill.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "What are the specs of the new smartphone?",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Tell me about the latest laptop.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I'm not happy with the service.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I want to complain about the product.",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hi there!",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Good morning, how are you?",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "Bye bye.",
+    "entities": []
+  },
+  {
+    "intent": "Goodbye",
+    "language": "en-us",
+    "text": "See you later, take care.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "I need help with my account.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "Assist me, please.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Cancel my order immediately.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "I want to cancel my subscription.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "Yes, confirm it.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "I approve, proceed.",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Display my available funds.",
+    "entities": []
+  },
+  {
+    "intent": "CheckBalance",
+    "language": "en-us",
+    "text": "Tell me how much money is left in my account.",
+    "entities": []
+  },
+  {
+    "intent": "MoneyTransfer",
+    "language": "en-us",
+    "text": "Please transfer $75 to my PayPal.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Pay my car insurance bill.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Settle my electricity payment.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "I want to pay my home loan installment.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Clear my water bill balance.",
+    "entities": []
+  },
+  {
+    "intent": "BillPayment",
+    "language": "en-us",
+    "text": "Please process the payment for my gas bill.",
+    "entities": []
+  },
+  {
+    "intent": "ProductInformation",
+    "language": "en-us",
+    "text": "Tell me more about the latest headphones.",
+    "entities": []
+  },
+  {
+    "intent": "Complaint",
+    "language": "en-us",
+    "text": "I need to complain about a faulty product.",
+    "entities": []
+  },
+  {
+    "intent": "Greeting",
+    "language": "en-us",
+    "text": "Hello, nice to see you.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "Can you help me with this issue?",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "I require assistance urgently.",
+    "entities": []
+  },
+  {
+    "intent": "Help",
+    "language": "en-us",
+    "text": "I\u2019m facing an issue, can you help?",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "I need to cancel my hotel booking.",
+    "entities": []
+  },
+  {
+    "intent": "Cancellation",
+    "language": "en-us",
+    "text": "Please revoke my transaction.",
+    "entities": []
+  },
+  {
+    "intent": "Confirmation",
+    "language": "en-us",
+    "text": "I validate this action.",
+    "entities": []
+  }
+]
